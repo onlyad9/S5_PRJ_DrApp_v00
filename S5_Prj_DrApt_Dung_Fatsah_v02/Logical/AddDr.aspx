@@ -81,11 +81,11 @@
             <td>
                 <asp:DropDownList ID="DropDownList1" runat="server">
                     <asp:ListItem>--Select--</asp:ListItem>
-                    <asp:ListItem>General practitioners‎</asp:ListItem>
-                    <asp:ListItem>Cardiologists‎</asp:ListItem>
-                    <asp:ListItem>Dermatologists‎‎</asp:ListItem>
-                    <asp:ListItem>Podiatrists‎‎</asp:ListItem>
-                    <asp:ListItem>Gynaecologists‎</asp:ListItem>
+                    <asp:ListItem>General practitioners</asp:ListItem>
+                    <asp:ListItem>Cardiologists</asp:ListItem>
+                    <asp:ListItem>Dermatologists</asp:ListItem>
+                    <asp:ListItem>Podiatrists</asp:ListItem>
+                    <asp:ListItem>Gynaecologists</asp:ListItem>
                 </asp:DropDownList>
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
             </td>
