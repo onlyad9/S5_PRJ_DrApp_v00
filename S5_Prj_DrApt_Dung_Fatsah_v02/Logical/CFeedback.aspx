@@ -9,7 +9,7 @@
         <br />
         <br />
         <br />
-        <asp:Label ID="Label2" runat="server" Text="Feedback  :-"></asp:Label>
+        <asp:Label ID="Label2" runat="server" Text="Feedback:"></asp:Label>
         <br />
         <asp:TextBox ID="TextBox1" runat="server" Height="58px" TextMode="MultiLine" Width="440px"></asp:TextBox>
         <br />

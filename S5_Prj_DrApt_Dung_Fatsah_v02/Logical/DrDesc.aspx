@@ -37,7 +37,7 @@
     <table class="auto-style1">
         <tr>
             <td>
-                <asp:Label ID="Label2" runat="server" Text="Patient ID  :-"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Patient ID:"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -55,31 +55,31 @@
         <table class="auto-style1">
             <tr>
                 <td>
-                    <asp:Label ID="Label8" runat="server" Text="Name  :-"></asp:Label>
+                    <asp:Label ID="Label8" runat="server" Text="Patient Name:"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TbPatientName" runat="server" Enabled="False"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="Label4" runat="server" Text="Disease  :-"></asp:Label></td>
-                <td>
-                    <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine"></asp:TextBox>
+                    <asp:TextBox ID="TbPatientName" runat="server" Enabled="False" Width="289px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label5" runat="server" Text="Treatment  :-"></asp:Label></td>
+                    <asp:Label ID="Label4" runat="server" Text="Disease:"></asp:Label></td>
                 <td>
-                    <asp:TextBox ID="TextBox3" runat="server" TextMode="MultiLine"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine" Height="50px" Width="289px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label6" runat="server" Text="** Note  :-"></asp:Label></td>
+                    <asp:Label ID="Label5" runat="server" Text="Treatment:"></asp:Label></td>
                 <td>
-                    <asp:TextBox ID="TextBox4" runat="server" Height="50px" TextMode="MultiLine"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" TextMode="MultiLine" Height="50px" Width="289px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label6" runat="server" Text="Note:"></asp:Label></td>
+                <td>
+                    <asp:TextBox ID="TextBox4" runat="server" Height="50px" TextMode="MultiLine" Width="289px"></asp:TextBox>
                 </td>
             </tr>
             <tr>

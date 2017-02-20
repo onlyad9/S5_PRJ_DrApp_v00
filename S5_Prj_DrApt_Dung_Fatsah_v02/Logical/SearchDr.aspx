@@ -15,7 +15,7 @@
     <table class="auto-style1">
         <tr>
             <td>
-                <asp:Label ID="Label2" runat="server" Text="Search By  :-"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Search By:"></asp:Label>
             </td>
             <td>
                 <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
@@ -26,10 +26,10 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="Label3" runat="server" Text="Text  :-  "></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Text  To Search For:  "></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server" Width="184px"></asp:TextBox>
             </td>
         </tr>
         <tr>
