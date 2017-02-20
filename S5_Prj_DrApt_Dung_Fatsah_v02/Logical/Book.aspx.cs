@@ -53,12 +53,12 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
     {
         if (DropDownList1.Text == "--Select--")
         {
-            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('Select Category !!!')", true);
+            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('Select a Category from the list !!!')", true);
 
         }
         if (DropDownList3.Text == "--Select--")
         {
-            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('Select Doctor Name !!!')", true);
+            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('Select Doctor Name from the list!!!')", true);
 
         }
         if (Label12.Text == "")
@@ -283,7 +283,7 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
     {
         if (Label10.Text == "")
         {
-            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('Please Select Time Slot !!!')", true);
+            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('Please Select a Time Slot !!!')", true);
         }
         else
         {
@@ -312,7 +312,7 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
                 }
                 else
                 {
-                    Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('No Doctor for this Category !!!')", true);
+                    Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('There is no Doctor for this Category !!!')", true);
                 }
             }
             catch (Exception a)
@@ -329,7 +329,7 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
             if (c == Color.Red)
             {
                 b.BackColor = Color.Red;
-                Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('This Slot has already booked, Please Select other Solt')", true);
+                Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('This Slot has already booked, Please Select other Slot')", true);
             }
             else if (b.BackColor == Color.White)
             {
@@ -349,7 +349,7 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
 
         else
         {
-            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('You had already selected the slot..if you want to select another slot deselect the selected slot..')", true);
+            Page.ClientScript.RegisterStartupScript(GetType(), "msgtype()", "alert('You had already selected a slot..if you want to select another slot deselect the selected slot..')", true);
         }
     }
     protected void Button7_Click(object sender, EventArgs e)
@@ -474,19 +474,19 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
     {
         Panel4.Visible = true;
         Button6.Visible = true;
-        redcolor(Button41.BackColor, Button21);
+        redcolor(Button41.BackColor, Button41);
     }
     protected void Button42_Click(object sender, EventArgs e)
     {
         Panel4.Visible = true;
         Button6.Visible = true;
-        redcolor(Button42.BackColor, Button22);
+        redcolor(Button42.BackColor, Button42);
     }
     protected void Button43_Click(object sender, EventArgs e)
     {
         Panel4.Visible = true;
         Button6.Visible = true;
-        redcolor(Button43.BackColor, Button23);
+        redcolor(Button43.BackColor, Button43);
     }
 
     // Souper Time
@@ -494,19 +494,19 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
     {
         Panel4.Visible = true;
         Button6.Visible = true;
-        redcolor(Button51.BackColor, Button21);
+        redcolor(Button51.BackColor, Button51);
     }
     protected void Button52_Click(object sender, EventArgs e)
     {
         Panel4.Visible = true;
         Button6.Visible = true;
-        redcolor(Button52.BackColor, Button22);
+        redcolor(Button52.BackColor, Button52);
     }
     protected void Button53_Click(object sender, EventArgs e)
     {
         Panel4.Visible = true;
         Button6.Visible = true;
-        redcolor(Button53.BackColor, Button23);
+        redcolor(Button53.BackColor, Button53);
     }
     protected void btnUpdate_Click(object sender, EventArgs e)
     {

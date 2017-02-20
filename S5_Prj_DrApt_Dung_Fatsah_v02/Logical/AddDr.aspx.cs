@@ -18,12 +18,19 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02.Logical
             string com = "select top 1 DId From Doctor ORDER BY DId Desc;";
             con.Open();
             cmd = new SqlCommand(com, con);
+            SqlCommand cmd2;
+            string com2 = "select top 1 CId From Cate ORDER BY CId Desc;";
+            cmd2 = new SqlCommand(com2, con);
             object count = cmd.ExecuteScalar();
-            if (count != null)
+            object count2 = cmd2.ExecuteScalar();
+            if (count != null && count2 != null)
             {
                 int i = Convert.ToInt32(count);
                 i++;
                 TextBox1.Text = i.ToString();
+
+                DropDownList1.DataSource = "Cate";
+                
             }
             else
             {
@@ -100,6 +107,44 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02.Logical
         {
             // Session.Abandon();
             Response.Redirect("~/Logical/ViewC.aspx");
+        }
+        private void LoadDropDownList()
+        {
+
+            DropDownList1.Items.Clear();
+            string selectSQL = "SELECT CId,Cate FROM dbo.Cate";
+
+            //SqlConnection con = new SqlConnection(con);
+            SqlCommand cmd = new SqlCommand(selectSQL, con);
+            SqlDataReader reader;
+
+            try
+            {
+                ListItem newItem = new ListItem();
+                newItem.Text = "<Select Subject>";
+                newItem.Value = "0";
+                DropDownList1.Items.Add(newItem);
+
+                con.Open();
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    newItem = new ListItem();
+                    newItem.Text = reader["Cate"].ToString();
+                    newItem.Value = reader["CID"].ToString();
+                    DropDownList1.Items.Add(newItem);
+                }
+                reader.Close();
+            }
+            catch (Exception err)
+            {
+                //TODO
+            }
+            finally
+            {
+                con.Close();
+            }
+
         }
     }
 }
