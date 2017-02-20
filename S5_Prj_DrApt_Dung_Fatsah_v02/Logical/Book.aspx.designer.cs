@@ -175,13 +175,31 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02 {
         protected global::System.Web.UI.WebControls.Button Button12;
         
         /// <summary>
-        /// Button19 control.
+        /// Button41 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button19;
+        protected global::System.Web.UI.WebControls.Button Button41;
+        
+        /// <summary>
+        /// Button42 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button42;
+        
+        /// <summary>
+        /// Button43 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button43;
         
         /// <summary>
         /// Button21 control.
@@ -238,13 +256,31 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02 {
         protected global::System.Web.UI.WebControls.Button Button26;
         
         /// <summary>
-        /// Button20 control.
+        /// Button51 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button20;
+        protected global::System.Web.UI.WebControls.Button Button51;
+        
+        /// <summary>
+        /// Button52 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button52;
+        
+        /// <summary>
+        /// Button53 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button53;
         
         /// <summary>
         /// Button13 control.

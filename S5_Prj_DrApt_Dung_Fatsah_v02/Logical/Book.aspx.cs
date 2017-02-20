@@ -24,8 +24,8 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
     {
         Panel4.Visible = false;
         Button6.Visible = false;
-        Button19.Enabled = false;
-        Button20.Enabled = false;
+        //Button19.Enabled = false;
+        //Button20.Enabled = false;
         if (!IsPostBack)
         {
             
@@ -151,6 +151,30 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
                     {
                         Button26.BackColor = Color.Red;
                     }
+                    if (Button41.Text == ds.Tables[0].Rows[i][0].ToString())
+                    {
+                        Button41.BackColor = Color.Red;
+                    }
+                    if (Button42.Text == ds.Tables[0].Rows[i][0].ToString())
+                    {
+                        Button42.BackColor = Color.Red;
+                    }
+                    if (Button43.Text == ds.Tables[0].Rows[i][0].ToString())
+                    {
+                        Button43.BackColor = Color.Red;
+                    }
+                    if (Button51.Text == ds.Tables[0].Rows[i][0].ToString())
+                    {
+                        Button51.BackColor = Color.Red;
+                    }
+                    if (Button52.Text == ds.Tables[0].Rows[i][0].ToString())
+                    {
+                        Button52.BackColor = Color.Red;
+                    }
+                    if (Button43.Text == ds.Tables[0].Rows[i][0].ToString())
+                    {
+                        Button53.BackColor = Color.Red;
+                    }
                 }
             }
 
@@ -213,6 +237,14 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
         Button24.BackColor = Color.White;
         Button25.BackColor = Color.White;
         Button26.BackColor = Color.White;
+        // Lunch Time
+        Button41.BackColor = Color.White;
+        Button42.BackColor = Color.White;
+        Button43.BackColor = Color.White;
+        // Souper Time 
+        Button51.BackColor = Color.White;
+        Button52.BackColor = Color.White;
+        Button53.BackColor = Color.White;
     }
     public void add(Color c, Button b)
     {
@@ -392,6 +424,90 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
         Button6.Visible = true;
         redcolor(Button18.BackColor, Button18);
     }
+    protected void Button19_Click(object sender, EventArgs e)
+    {
+
+
+    }
+    protected void Button20_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void Button21_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button21.BackColor, Button21);
+    }
+    protected void Button22_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button22.BackColor, Button22);
+    }
+    protected void Button23_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button23.BackColor, Button23);
+    }
+    protected void Button24_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button24.BackColor, Button24);
+    }
+    protected void Button25_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button25.BackColor, Button25);
+    }
+    protected void Button26_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button26.BackColor, Button26);
+    }
+        // Lunch Time
+    protected void Button41_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button41.BackColor, Button21);
+    }
+    protected void Button42_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button42.BackColor, Button22);
+    }
+    protected void Button43_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button43.BackColor, Button23);
+    }
+
+    // Souper Time
+    protected void Button51_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button51.BackColor, Button21);
+    }
+    protected void Button52_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button52.BackColor, Button22);
+    }
+    protected void Button53_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+        Button6.Visible = true;
+        redcolor(Button53.BackColor, Button23);
+    }
     protected void btnUpdate_Click(object sender, EventArgs e)
     {
         add(Button7.BackColor, Button7);
@@ -412,7 +528,14 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
         add(Button24.BackColor, Button24);
         add(Button25.BackColor, Button25);
         add(Button26.BackColor, Button26);
-
+        // Lunch Time
+        add(Button41.BackColor, Button41);
+        add(Button42.BackColor, Button42);
+        add(Button43.BackColor, Button43);
+        // Souper Time
+        add(Button51.BackColor, Button51);
+        add(Button52.BackColor, Button52);
+        add(Button53.BackColor, Button53);
         string no = "";
         string dmail = "";
         SqlDataAdapter daa;
@@ -469,51 +592,7 @@ namespace S5_Prj_DrApt_Dung_Fatsah_v02
     {
         Label12.Text = Calendar1.SelectedDate.ToShortDateString();
     }
-    protected void Button19_Click(object sender, EventArgs e)
-    {
-      
-
-    }
-    protected void Button20_Click(object sender, EventArgs e)
-    {
-      
-    }
-    protected void Button21_Click(object sender, EventArgs e)
-    {
-        Panel4.Visible = true;
-        Button6.Visible = true;
-        redcolor(Button21.BackColor, Button21);
-    }
-    protected void Button22_Click(object sender, EventArgs e)
-    {
-        Panel4.Visible = true;
-        Button6.Visible = true;
-        redcolor(Button22.BackColor, Button22);
-    }
-    protected void Button23_Click(object sender, EventArgs e)
-    {
-        Panel4.Visible = true;
-        Button6.Visible = true;
-        redcolor(Button23.BackColor, Button23);
-    }
-    protected void Button24_Click(object sender, EventArgs e)
-    {
-        Panel4.Visible = true;
-        Button6.Visible = true;
-        redcolor(Button24.BackColor, Button24);
-    }
-    protected void Button25_Click(object sender, EventArgs e)
-    {
-        Panel4.Visible = true;
-        Button6.Visible = true;
-        redcolor(Button25.BackColor, Button25);
-    }
-    protected void Button26_Click(object sender, EventArgs e)
-    {
-        Panel4.Visible = true;
-        Button6.Visible = true;
-        redcolor(Button26.BackColor, Button26);
-    }
+  
 }
 }
     
