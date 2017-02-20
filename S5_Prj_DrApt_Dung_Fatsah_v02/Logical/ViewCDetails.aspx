@@ -16,7 +16,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <div class="auto-style1">
         <div class="auto-style1">
-            <asp:Label ID="Label1" runat="server" Font-Size="X-Large" Font-Underline="True" ForeColor="#229EE2" Text="Details"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Size="X-Large" Font-Underline="True" ForeColor="#229EE2" Text="Patient Details"></asp:Label>
 
         </div>
 
@@ -26,7 +26,7 @@
         <table class="auto-style2">
             <tr>
                 <td>
-                    <asp:Label ID="Label2" runat="server" Text="Patient Id  :-"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Patient Id:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TextBox1" runat="server" ReadOnly="True"></asp:TextBox>
@@ -35,7 +35,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label3" runat="server" Text="Name  :-"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="Name:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TextBox2" runat="server" ReadOnly="True"></asp:TextBox>
@@ -44,7 +44,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label4" runat="server" Text="Address  :-"></asp:Label>
+                    <asp:Label ID="Label4" runat="server" Text="Address:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TextBox3" runat="server" Height="69px" TextMode="MultiLine" Width="210px"></asp:TextBox>
@@ -53,7 +53,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label5" runat="server" Text="Mobile No  :-"></asp:Label>
+                    <asp:Label ID="Label5" runat="server" Text="Mobile No:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
@@ -64,7 +64,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label6" runat="server" Text="EMail  :-"></asp:Label>
+                    <asp:Label ID="Label6" runat="server" Text="EMail:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TextBox5" runat="server" OnTextChanged="TextBox5_TextChanged"></asp:TextBox>
@@ -75,7 +75,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label9" runat="server" Text="Sex  :-"></asp:Label>
+                    <asp:Label ID="Label9" runat="server" Text="Sex:"></asp:Label>
                 </td>
                 <td>
 
@@ -88,7 +88,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label10" runat="server" Text="Age  :-"></asp:Label>
+                    <asp:Label ID="Label10" runat="server" Text="Age:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TextBox8" runat="server" MaxLength="4"></asp:TextBox>
@@ -97,7 +97,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label11" runat="server" Text="Bloog Group  :-"></asp:Label>
+                    <asp:Label ID="Label11" runat="server" Text="Bloog Group:"></asp:Label>
                 </td>
                 <td>
                     <asp:DropDownList ID="DropDownList2" runat="server" Height="16px" Width="100px">
@@ -115,7 +115,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="LblPassword" runat="server" Text="Password  :-"></asp:Label>
+                    <asp:Label ID="LblPassword" runat="server" Text="Password:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TbPassword" runat="server" TextMode="Password"></asp:TextBox>
@@ -126,7 +126,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="LblComfirmPassword" runat="server" Text="Confirm Password  :-"></asp:Label>
+                    <asp:Label ID="LblComfirmPassword" runat="server" Text="Confirm Password:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TbComfirmPassword" runat="server" TextMode="Password"></asp:TextBox>

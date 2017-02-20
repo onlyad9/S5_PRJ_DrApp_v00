@@ -15,7 +15,7 @@
         <table class="auto-style1">
             <tr>
                 <td>
-                    <asp:Label ID="Label2" runat="server" Text="Appointment Id  :-"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Appointment Id:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -23,26 +23,23 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label3" runat="server" Text="Category  :-"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="Category:"></asp:Label>
                 </td>
                 <td>
                     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True"
                         OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                         <asp:ListItem>--Select--</asp:ListItem>
-                        <asp:ListItem>General Physician</asp:ListItem>
-                        <asp:ListItem>Bone</asp:ListItem>
-                        <asp:ListItem>Heart</asp:ListItem>
-                        <asp:ListItem>Dentist</asp:ListItem>
-                        <asp:ListItem>Neurologist</asp:ListItem>
-                        <asp:ListItem>Kidney</asp:ListItem>
-                        <asp:ListItem>Cardiologist</asp:ListItem>
-                        <asp:ListItem>Plastic Surgeon</asp:ListItem>
+                        <asp:ListItem>General practitioners</asp:ListItem>
+                        <asp:ListItem>Cardiologists</asp:ListItem>
+                        <asp:ListItem>Dermatologists</asp:ListItem>
+                        <asp:ListItem>Podiatrists</asp:ListItem>
+                        <asp:ListItem>Gynaecologists</asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label9" runat="server" Text="Doctor :-"></asp:Label>
+                    <asp:Label ID="Label9" runat="server" Text="Doctor Name:"></asp:Label>
                 </td>
                 <td>
                     <asp:DropDownList ID="DropDownList3" runat="server" Height="25px"
@@ -54,7 +51,7 @@
         </table>
         <br />
 
-        <asp:Label ID="Label4" runat="server" Text="Date  :-"></asp:Label>
+        <asp:Label ID="Label4" runat="server" Text="Date:"></asp:Label>
         &nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Calendar ID="Calendar1" runat="server" OnDayRender="Calendar1_DayRender"
